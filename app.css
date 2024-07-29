@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    transition: width 0.5s ease;
+  }
+  
+  #mainContent {
+    padding: 20px;
+    transition: width 0.5s ease;
+  }
+  
+  #episodesArea {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    border-left: 1px solid #c9c9c9;
+    transition: width 0.5s ease;
+  }
+  
+  #closeEpisodes {
+    float: right;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #closeEpisodes:hover {
+    background-color: #fd6161;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Show-details {
+    text-align: left;
+  }
+  
